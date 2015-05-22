@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="220dip"
+    android:layout_height="180dip"
+    android:background="@drawable/bg_box_white"
+    android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/autoLoginTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="42dip"
+            android:text="剩下2秒自动登陆"
+            android:textColor="@android:color/white"
+            android:background="#007aff"
+            android:gravity="center"
+            android:textSize="18sp"/>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="42dip">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dian_05"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dian_05"
+            android:layout_marginLeft="15dip"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dian_05"
+            android:layout_marginLeft="15dip"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dian_03"
+            android:layout_marginLeft="15dip"/>
+    </LinearLayout>
+    
+    
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="42dip">
+        <TextView
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:text="取    消"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_blue_normal"
+                android:gravity="center" />
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/back_view" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dip"
+        android:background="#efefef"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="10dp"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dip"
+            android:padding="20dip"
+            android:text="   请务必认真阅读和理解以下服务条款请撒大家啊世界顶级；就；就；了解撒大家；拉世界时间范德萨发觉啊圣诞节啊是；了解到； 啊睡觉的撒娇的；按键； 啊速度让问题解决都是南方近年来凯撒阶段撒"
+            android:textColor="#4d4d4d"
+            android:textScaleX="1.02"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout>
